@@ -23,7 +23,7 @@ jobs:
 
       - name: Applying infrastructure 🚀
         id: pulumi
-        uses: pulumi/actions@v3.19.1
+        uses: pulumi/actions@v3.20.0
         with:
           work-dir: "./csharp-project"
           command: up
