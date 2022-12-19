@@ -28,7 +28,7 @@ jobs:
           work-dir: "./csharp-project"
           command: up
           stack-name: dev
-          pulumi-version: 3.19
+          pulumi-version: 3.18.*
         env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
 
