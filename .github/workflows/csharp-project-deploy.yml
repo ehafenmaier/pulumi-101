@@ -20,6 +20,11 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: 6.0
+          
+      - name: Check Pulumi
+        run: |
+          which pulumi
+          pulumi version
 
       - name: Applying infrastructure 🚀
         id: pulumi
