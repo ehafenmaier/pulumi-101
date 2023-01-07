@@ -30,7 +30,7 @@ jobs:
         id: pulumi
         uses: pulumi/actions@v3.20.0
         with:
-          work-dir: "./csharp-project"
+          work-dir: "./csharp"
           command: up
           stack-name: dev
         env:
